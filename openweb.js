@@ -4,4 +4,5 @@
 
 var open = require('open');
 
-open("http://oneccc.bid/Bootstrap/src/boot1.html");
+//open("http://oneccc.bid/Bootstrap/src/boot1.html");
+open("./src/boot1.html");
