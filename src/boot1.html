@@ -9,7 +9,12 @@
   <!-- <meta viewportname="" content="width=device-width, initial-scale=1"> -->
   <!-- <meta viewportname="" content="width=2000"> -->
 
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- <meta name="viewport" content="width=device-width, 
+                                     initial-scale=8.0, 
+                                     maximum-scale=1.0, 
+                                     user-scalable=no"> -->
 
   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">  
   <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
@@ -17,15 +22,105 @@
 </head>
 <body>
 
+
 <div class="container">
-  <div class="jumbotron">
-    <h1>BootStrap Study2</h1>  
-    <div>123234568011</div>
-    <p>passage</p>
-  </div>
+<div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">主题 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">Java</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据通信/网络</a>
+        </li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+        </li>
+    </ul>
 
 
 </div>
+<button type="button" class="btn btn-default">按钮 1</button>
+<button type="button" class="btn btn-default">按钮 1</button>
+<button type="button" class="btn btn-default">按钮 1</button>
+
+<ul style="list-style-type:disc;">
+  <li >
+    123123
+  </li>
+    <li style= "margin-top=120px;">
+    123123
+  </li>
+</ul>
+
+<form role="form">
+  <div class="form-group">
+    <label for="name">名称</label>
+    <input type="text" class="form-control" id="name" placeholder="请输入名称">
+  </div>
+  <div class="form-group">
+    <label for="inputfile">文件输入</label>
+    <input type="file" id="inputfile">
+    <p class="help-block">这里是块级帮助文本的实例。</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox">请打勾
+    </label>
+  </div>
+  <button  style="background-color: red; width:30%; height:20%; margin:0 auto;" type="submit" class="btn btn-default">提交</button>
+</form>
+
+<div align="center" style="background-color:green ">
+<label style="width:30%; height:20%; margin:0 auto;"">65345</label>  
+</div>
+
+<div style="text-align: center;">
+  <button style="margin: auto;background-color: green;width:30; 
+  
+  height:150;" >
+    
+  </button>
+
+
+
+</div>
+<div style="text-align: center;">
+      <label>
+      <input style="display: block;" type="checkbox">请打勾
+    </label>
+    </div>
+
+</div>
+
+<!-- <div style="display: block;"> -->
+<div style="float:left;background: red; width: 50%;height: 100px; margin-left: 20">
+  <label>1</label>
+  <label>1</label>
+  <label>1</label>
+  <label>1</label>
+  <label>1</label>
+</div>
+
+<div style="float:right;background: green;width: 50%;height: 100px;margin-right: : 20">
+
+  
+</div>
+<!-- </div> -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<label>bottom</label>
+<div style="height:50px;background-color: orange; border:1px solid #000; width:300px; display:inline"></div>
+<div style="height:50px; border:1px solid #000; background-color: yellow;width:300px; display:inline"></div>
 
 </body>
 </html>
