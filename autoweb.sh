@@ -1,5 +1,7 @@
 #/bin/bash 
 cd /Users/guodong/Documents/myCode/Bootstrap
+mv ../Bootstrap 
+
 git add .
 git commit -m "modify2"
 git push
