@@ -1,6 +1,6 @@
 #/bin/bash 
 cd /Users/guodong/Documents/myCode/Bootstrap
-mv ../Bootstrap   /Library/WebServer/Documents
+cp ../Bootstrap   /Library/WebServer/Documents
 
 git add .
 git commit -m "modify2"
