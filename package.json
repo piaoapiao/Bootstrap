@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch_ios": "npm-watch run_ios",
-    "start":"http-server -a 0.0.0.0 -p 800"
+    "start":"http-server -a 127.0.0.1 -p 800"
   },
   "repository": {
     "type": "git",
