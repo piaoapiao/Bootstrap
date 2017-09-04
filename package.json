@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch_ios": "npm-watch run_ios"
+    "watch_ios": "npm-watch run_ios",
+    "start":""
   },
   "repository": {
     "type": "git",
