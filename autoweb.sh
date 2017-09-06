@@ -5,7 +5,7 @@ echo '724108'|sudo  -S  cp -R ../Bootstrap/   /Library/WebServer/Documents/Boots
 
 
 git add .
-git commit -m "modify2"
+git commit -m "居中"
 git push
 ssh  root@198.74.117.101  "cd /var/www/html/Bootstrap;git pull;exit"
 
