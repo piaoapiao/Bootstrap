@@ -16,6 +16,7 @@ if [ ${SaveGit} = YES ];then
 	pushGit	
 fi
 
+
 if [ ${RunLoal} = YES ];then
 	echo '724108'|sudo  -S  rm -rf /Library/WebServer/Documents/Bootstrap
 	echo '724108'|sudo  -S  cp -R ../Bootstrap/   /Library/WebServer/Documents/Bootstrap	
