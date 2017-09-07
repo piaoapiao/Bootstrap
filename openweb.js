@@ -14,4 +14,4 @@ var open = require('open');
 
 open("http://oneccc.bid/Bootstrap/src/baidu.html");
 
- open("./src/baidu.html");
+//open("./src/baidu.html");
