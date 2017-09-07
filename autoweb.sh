@@ -1,7 +1,7 @@
 #/bin/bash 
 cd /Users/guodong/Documents/myCode/Bootstrap
 
-RunLoal=YES
+RunLoal=NO
 SaveGit=NO
 
 
