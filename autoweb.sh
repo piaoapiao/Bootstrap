@@ -7,9 +7,9 @@ SaveGit=NO
 
 function pushGit()
 {
-	# git add .
-	# git commit -m "test"
-	# git push
+	git add .
+	git commit -m "自适应换行"
+	git push
 }
 
 if [ ${SaveGit} = YES ];then
