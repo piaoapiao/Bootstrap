@@ -1,8 +1,8 @@
 #/bin/bash 
 cd /Users/guodong/Documents/myCode/Bootstrap
 
-RunLoal=NO
-SaveGit=NO
+RunLoal=YES
+SaveGit=YES
 
 
 function pushGit()

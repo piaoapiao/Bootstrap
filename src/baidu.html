@@ -27,15 +27,25 @@
 			width: 450px;
 			background-color: green;
 			position: relative;	
+			left: 0px;
+/*			text-align: center; */
+			padding: 9px 7px;
+			border: 1px solid #b8b8b8
 		}
 
 		.sou_btn
 		{
-
+			line-height: 38px;
+			width:102px;
+			height: 38px;
+			font-size: 16px;
+			background-color: #38f;
+			padding: 0;
+			color: white;
+			cursor: pointer;
 		}
 
 	</style>
-
 		<!-- position:absolute; -->
 
 </head>
@@ -44,15 +54,14 @@
 <div id="container">	
 	<div >  
 		<img class="logo" src="../image/baidu.png">
-	</div>
+	</div>	
 
 	<div style="margin: 0 auto 0 auto;width: 641px;text-align: center;">
 		<form style="background-color: red;" method="POST" action = 'user_login_submit.action' >
 			<span class="sou_btn"></span>
-			<input type="text" name="searchWord" style="margin: 0 auto; text-align: center; background-color: yellow;
-			">
+			<input type="text" name="searchWord" maxlength="10" class="s_input">
 			<span>
-				<input type="submit" value="百度一下2">
+				<input type="submit" class="sou_btn" value="百度一下">
 			</span>
 			<input type="hidden" name="page" value="baidu">
 		</form>
@@ -84,12 +93,14 @@
 
 	<p style="line-height: 50px; font-size: 20px;background-color: brown;height: 50px; text-align: center;">test center2</p>
 
-	<div style="width: 50px;height: 50px; word-wrap: break-word;">
-	<p style="min-height: 50px;width: 50px; background-color: red;display: inline-block;">12312314234234234234234</p>
+	<div style="width: 50px; word-wrap: break-word;">
+
+	<p style="min-height: 50px;width: 50px; background-color: red;">1231231423423423423423423423423423</p>
 		<p>234</p>
 	</div>
 
-	<a href="baidu.com" title="百度"></a>
+	<a href="baidu.com" title="百度" style="text-decoration: underline;">dd</a>
+	<p>ogo3243</p>
 
 </body>
 </html>
