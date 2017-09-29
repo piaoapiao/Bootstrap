@@ -2,7 +2,7 @@
 cd /Users/guodong/Documents/myCode/Bootstrap
 
 RunLoal=YES
-SaveGit=YES
+SaveGit=NO
 
 
 function pushGit()
